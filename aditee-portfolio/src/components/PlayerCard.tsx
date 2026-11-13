@@ -92,7 +92,7 @@ export function PlayerCard() {
 function Stat({ label, value }: { label: string; value: string }) {
   return (
     <div>
-      <p className="font-display text-xl font-bold text-paper">{value.toLocaleString('en-IN')}</p>
+      <p className="font-display text-xl font-bold text-paper">{value}</p>
       <p className="font-pixel text-[8px] text-muted">{label}</p>
     </div>
   )
